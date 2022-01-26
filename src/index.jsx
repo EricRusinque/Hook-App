@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { CallbackHook } from './components/06-memos/CallbackHook';
 import { MemoHook } from './components/06-memos/MemoHook';
 // import { HookApp } from './HookApp';
 // import { CounterApp } from './components/01-useState/CounterApp';
@@ -17,7 +18,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MemoHook/>
+    <CallbackHook/>
   </React.StrictMode>,
   document.getElementById('root')
 );
