@@ -12,14 +12,15 @@ import ReactDOM from 'react-dom';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
 // import { Memorize } from './components/06-memos/Memorize';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre/>
+    <TodoApp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
